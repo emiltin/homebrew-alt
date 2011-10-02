@@ -108,7 +108,8 @@ class Gcc < Formula
       "--with-system-zlib",
       "--enable-stage1-checking",
       "--enable-plugin",
-      "--disable-lto" # Change to enable when 4.6.1 is released
+      "--disable-lto", # Change to enable when 4.6.1 is released
+      "--enable-fully-dynamic-string"
     ]
 
     args << '--disable-nls' unless nls?
