@@ -112,7 +112,7 @@ class Gcc < Formula
       "--enable-fully-dynamic-string"
     ]
     
-    ohoi '--enable-fully-dynamic-string'
+    ohai '--enable-fully-dynamic-string'
     args << '--disable-nls' unless nls?
 
     if build_everything?
