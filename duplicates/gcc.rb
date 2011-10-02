@@ -111,7 +111,8 @@ class Gcc < Formula
       "--disable-lto", # Change to enable when 4.6.1 is released
       "--enable-fully-dynamic-string"
     ]
-
+    
+    ohoi '--enable-fully-dynamic-string'
     args << '--disable-nls' unless nls?
 
     if build_everything?
